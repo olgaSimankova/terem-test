@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+  .line {
+    flex-direction: column;
+  }
+  .block {
+    flex: 0 1 auto;
+  }
+}

@@ -1,5 +1,6 @@
 @import "./styles/reset.css";
 @import "./styles/blocks.css";
+@import "./styles/media.css";
 
 html {
   font-size: 10px;
