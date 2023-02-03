@@ -1,0 +1,18 @@
+.line {
+  display: flex;
+  flex: 0 1 auto;
+}
+
+.block {
+  display: flex;
+  flex: 1 1 auto;
+
+  height: 200px;
+  border: 1px solid #000;
+  justify-content: center;
+}
+
+.first_line_block_1.invisible {
+  display: none;
+}
+
