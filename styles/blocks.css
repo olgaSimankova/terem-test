@@ -1,6 +1,7 @@
 .line {
   display: flex;
   flex: 0 1 auto;
+  gap: 0.5rem;
 }
 
 .block {
@@ -10,9 +11,31 @@
   height: 200px;
   border: 1px solid #000;
   justify-content: center;
+  align-items: center;
 }
 
 .first_line_block_1.invisible {
   display: none;
 }
 
+.second_line_block_1 {
+  background: #80daeb;
+}
+
+.second_line_block_2 {
+  border: 1px dashed #000;
+
+  background: #28c0de;
+}
+
+.second_line_block_3 {
+  background: #1d9cb5;
+}
+
+.third_line_block_1 {
+  flex: 1 1 auto;
+}
+
+.third_line_block_2 {
+  flex: 2 2 auto;
+}
