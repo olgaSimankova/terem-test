@@ -1,0 +1,17 @@
+.modal-content {
+  width: 400px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-header {
+  border: none;
+}
+
+.modal-title {
+  font-size: 5rem;
+  display: inline-block;
+  margin: 0 auto;
+}

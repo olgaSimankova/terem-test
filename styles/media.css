@@ -5,4 +5,12 @@
   .block {
     flex: 0 1 auto;
   }
+  .swap_2 {
+    transform: translateY(102%);
+    transition-duration: 1s;
+  }
+  .swap_1 {
+    transform: translateY(-102%);
+    transition-duration: 1s;
+  }
 }

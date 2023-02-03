@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.first_line_block_1.invisible {
+.first_line_block_1.hidden {
   display: none;
 }
 
@@ -28,7 +28,18 @@
   background: #28c0de;
 }
 
+.swap_2 {
+  /* order: 2; */
+  transform: translateX(-101%);
+  transition-duration: 1s;
+}
+.swap_1 {
+  transform: translateX(101%);
+  transition-duration: 1s;
+}
+
 .second_line_block_3 {
+  order: 3;
   background: #1d9cb5;
 }
 
