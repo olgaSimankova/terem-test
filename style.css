@@ -27,3 +27,8 @@ html {
 
   font-size: 2rem;
 }
+.btn-primary {
+  width: fit-content;
+  align-self: center;
+  margin: 10rem 0;
+}
