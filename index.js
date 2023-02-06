@@ -1,3 +1,6 @@
+const myModal = new bootstrap.Modal(document.getElementById("myModal"), {});
+myModal.show();
+
 const buttonOneClickHandler = () => {
   document.querySelector(".first_line_block_1").classList.toggle("hidden");
 };

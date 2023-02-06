@@ -1,0 +1,28 @@
+.form_container {
+  width: 100%;
+  max-width: 1198px;
+
+  margin: 0 auto;
+}
+
+.heading {
+  margin: 2rem 0;
+
+  text-align: center;
+}
+
+.select_group {
+  display: flex;
+  gap: 0.5rem;
+
+  padding: 1rem 0;
+}
+
+.form_data {
+  width: 80%;
+  max-width: 1198px;
+  height: 15rem;
+  background-color: whitesmoke;
+
+  margin: 3rem auto;
+}
